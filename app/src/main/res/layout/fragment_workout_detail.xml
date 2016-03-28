@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                tools:context="com.e_overhaul.android.stats.WorkoutDetailFragment"
+                android:clickable="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Workout Routine"
+        android:id="@+id/workoutRoutineTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunday"
+        android:id="@+id/checkBoxSunday"
+        android:layout_below="@+id/workoutRoutineTextView"
+        android:layout_centerHorizontal="true"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monday"
+        android:id="@+id/checkBoxMonday"
+        android:layout_below="@+id/checkBoxSunday"
+        android:layout_alignLeft="@+id/checkBoxSunday"
+        android:layout_alignStart="@+id/checkBoxSunday"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tuesday"
+        android:id="@+id/checkBoxTuesday"
+        android:layout_below="@+id/checkBoxMonday"
+        android:layout_alignLeft="@+id/checkBoxSunday"
+        android:layout_alignStart="@+id/checkBoxSunday"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wednesday"
+        android:id="@+id/checkBoxWednesday"
+        android:layout_below="@+id/checkBoxTuesday"
+        android:layout_alignLeft="@+id/checkBoxSunday"
+        android:layout_alignStart="@+id/checkBoxSunday"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thursday"
+        android:id="@+id/checkBoxThursday"
+        android:layout_below="@+id/checkBoxWednesday"
+        android:layout_alignLeft="@+id/checkBoxSunday"
+        android:layout_alignStart="@+id/checkBoxSunday"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Friday"
+        android:id="@+id/checkBoxFriday"
+        android:layout_below="@+id/checkBoxThursday"
+        android:layout_alignLeft="@+id/checkBoxSunday"
+        android:layout_alignStart="@+id/checkBoxSunday"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saturday"
+        android:id="@+id/checkBoxSaturday"
+        android:layout_below="@+id/checkBoxFriday"
+        android:layout_alignLeft="@+id/checkBoxSunday"
+        android:layout_alignStart="@+id/checkBoxSunday"/>
+
+
+
+</RelativeLayout>

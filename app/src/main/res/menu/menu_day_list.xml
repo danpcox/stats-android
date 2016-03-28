@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      tools:context="com.e_overhaul.android.stats.DayList">
+
+      <item android:id="@+id/action_main"
+      android:title="@string/action_main"
+      app:showAsAction="never" />
+</menu>

@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.e_overhaul.android.stats.MainActivity">
+
+    <item android:id="@+id/action_main"
+          android:title="@string/action_main"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/action_days"
+          android:title="@string/action_days"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/action_stat_list"
+          android:title="@string/action_stat_list"
+          app:showAsAction="never" />
+
+</menu>
